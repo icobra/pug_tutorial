@@ -6,8 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "help": "pug --help",
-    "dev": "pug src -o dist",
-    "pretty": "pug -P src -o dist"
+    "dev": "pug src/pages -o dist",
+    "pretty": "pug -P src/pages -o dist"
   },
   "repository": {
     "type": "git",
