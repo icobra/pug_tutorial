@@ -4,15 +4,9 @@ footer
     p LOGO
     p TOXIN
     p Lorem ipsum dolor sit amet consectetur adipiscing elit aliquam eget nullam pellentesque aliquam curabitur cociis.
-    ul.footer__list
-      each val in ['Navigation', 'About Us', 'News', 'Support', 'Products']
-        li= val
-    ul.footer__list2
-      each val in ['ABOUT US', 'Who we are', 'Our team', 'Careers', 'Investors']
-        li= val
-    ul.footer__list3
-      each val in ['Support', 'Documentation', 'Community', 'Get in Touch']
-        li= val
+    +menu__list('footer__list','Navigation', 'About Us', 'News', 'Support', 'Products')
+    +menu__list('footer__list2','ABOUT US', 'Who we are', 'Our team', 'Careers', 'Investors')
+    +menu__list('footer__list3','Support', 'Documentation', 'Community', 'Get in Touch')
     p Subscribe to our newsletter
     p Receive our latest news and promotions in your inbox!
     p Email form ;)
