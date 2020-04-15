@@ -1,0 +1,27 @@
+{
+  "name": "pug_tutorial",
+  "version": "1.0.0",
+  "description": "PUG_cli tutorial",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/icobra/pug_tutorial.git"
+  },
+  "keywords": [
+    "pug_cli",
+    "pug_tutorial"
+  ],
+  "author": "iCobra as Sasha Good",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/icobra/pug_tutorial/issues"
+  },
+  "homepage": "https://github.com/icobra/pug_tutorial#readme",
+  "devDependencies": {
+    "pug": "^2.0.4",
+    "pug-cli": "^1.0.0-alpha6"
+  }
+}
