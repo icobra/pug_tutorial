@@ -1,8 +1,11 @@
 // components/header/header.pug
+
+// подключаем миксин
+// вызов миксина выглядит как +[имя_микисна](параметры)
+include ../menu__list/menu__list.pug
+
 header
   .header
     p LOGO
     p TOXIN
-    ul.header__list
-      each val in ['Home', 'About Us', 'Services >', 'Careers', 'News', 'Documentation']
-        li= val
+    +menu__list('header__list','Home', 'About Us', 'Services >', 'Careers', 'News', 'Documentation')
