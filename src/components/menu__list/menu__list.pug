@@ -1,6 +1,10 @@
 // components/menu__list/menu__list.pug
 
+// mixin [имя_миксина](параметры)
 mixin menu__list(id, ...items)
+  // ul - создаем список (id - имя идентификатора) .menu__list(menu__list - имя класса) 
   ul(id=id).menu__list
+    // запускаем генератор (создаем цикл) где выбираются все значения из списка items
     each item in items
+      // каждый item - отдельный элемент списка
       li= item
