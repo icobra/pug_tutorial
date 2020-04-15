@@ -1,0 +1,6 @@
+// components/menu__list/menu__list.pug
+
+mixin menu__list(id, ...items)
+  ul(id=id).menu__list
+    each item in items
+      li= item
